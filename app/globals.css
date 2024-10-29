@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.glassBlur {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 5px black;
+}
+
+.glassBlur2 {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 5px black;
+}
+.glassBlur3 {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 5px black;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-br from-tg-gradient-1-start to-tg-gradient-1-end bg-clip-text text-transparent;
+}
+
+.gradient-text2 {
+  background: linear-gradient(to right, #8700f5 0%, #ff075a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .bgGradient {
+  @apply bg-gradient-to-r from-primary via-secondary to-danger;
+} */
+
+.glitches::before {
+  content: "404";
+  position: absolute;
+  top: 0;
+  overflow: visible;
+  left: 0.05em;
+  color: white;
+  z-index: 9;
+  clip-path: polygon(
+    0% 0%,
+    100% 0,
+    100% 26%,
+    0 26%,
+    0 29%,
+    100% 29%,
+    100% 51%,
+    0 51%,
+    0 59%,
+    100% 59%,
+    100% 66%,
+    0 66%,
+    0 79%,
+    100% 79%,
+    100% 86%,
+    0 86%,
+    0% 0%
+  );
+  animation: glitches 1.5s steps(2, start) infinite;
+  font-size: 220px;
+  will-change: left transform;
+}
+
+@keyframes glitches {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes glitches {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, -5px);
+  }
+  40% {
+    transform: translate(5px, 5px);
+  }
+  60% {
+    transform: translate(-5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.no-scrollbar {
+  /* Hide scrollbar for Webkit-based browsers (Chrome, Safari) */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit-based browsers */
+}
+
+@media (min-width: 768px){
+  .no-scrollbar2 {
+    /* Hide scrollbar for Webkit-based browsers (Chrome, Safari) */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+  }
+  
+  .no-scrollbar2::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit-based browsers */
+  }
+}
+
+@media print {
+  .print-black {
+    color: black !important;
+  }
+  .print-border{
+    border-bottom: 1px solid black;
+  }
+  .hide{ 
+    display: none;
+  }
+}
+ 
+.tree li a:hover,
+.tree li a:hover + ul li a {
+  background: #c8e4f8;
+  color: #000;
+}
+
+
+@keyframes starMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes starTwinkle {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes starSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes starFall {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100vw, 100vh);
+  }
+}
+
+/* Classes to apply these animations */
+.star-move {
+  animation: starMove linear infinite;
+}
+
+.star-twinkle {
+  animation: starTwinkle ease-in-out infinite;
+}
+
+.star-slide {
+  animation: starSlide linear infinite;
+}
+
+.star-fall {
+  animation: starFall linear infinite;
+}

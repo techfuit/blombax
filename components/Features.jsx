@@ -7,7 +7,7 @@ export default function Features() {
       <LayoutCard>
         <div className='grid md:grid-cols-2 grid-cols-1 gap-5'>
           <div className='flex flex-col justify-center'>
-            <h1 className='md:text-6xl text-5xl'>DFM </h1>
+            <h1 className='md:text-6xl text-5xl'>Bloombax </h1>
             <h1 className='gradient-text md:text-6xl text-5xl mb-8'>Features</h1>
             <p className='text-lg'>Explore, Engage, Empower - <br />
               Unleashing the Power of Crypto and Crowdfunding.</p>

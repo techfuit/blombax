@@ -9,10 +9,11 @@ export default function Navbar() {
 
   const navData = [
     { title: "Home", link: "#home" },
+    { title: "Crypto", link: "#crypto" },
     { title: "About", link: "#about" },
     { title: "Crowdfunding", link: "#crowdfunding" },
     { title: "Features", link: "#features" },
-    { title: "Crypto", link: "#crypto" },
+    
   ]
 
   const [isScrolled, setIsScrolled] = useState(false);

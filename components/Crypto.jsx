@@ -14,7 +14,7 @@ export default function Crypto() {
             <h2 className='gradient-text text-lg font-semibold'>Empower Your Finances with the Power of Cryptocurrency</h2>
             <h1 className='md:text-6xl text-5xl'>Financial Empowerment  </h1>
             <h1 className='gradient-text md:text-6xl text-5xl mb-8'>through Cryptocurrency</h1>
-            <p className='text-lg'>DFM creates customized investment plans tailored to your financial goals, risk tolerance, and market conditions. Continuously learning and adapting, our system ensures your portfolio aligns with your objectives, offering personalized recommendations for optimal growth and success in the dynamic world of crypto and crowdfunding. Check out our trading website, DFM, to experience the future of personalized investment.</p>
+            <p className='text-lg'>Bloombax creates customized investment plans tailored to your financial goals, risk tolerance, and market conditions. Continuously learning and adapting, our system ensures your portfolio aligns with your objectives, offering personalized recommendations for optimal growth and success in the dynamic world of crypto and crowdfunding. Check out our trading website, Bloombax, to experience the future of personalized investment.</p>
            </div>
         </div>
       </LayoutCard>

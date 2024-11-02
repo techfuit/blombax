@@ -13,7 +13,7 @@ export default function Inteligent() {
            <div className='flex flex-col justify-center gap-2'>
             <h2 className='gradient-text text-lg font-semibold'>SMART, EFFICIENT, AND TAILORED AI SOLUTIONS FOR MAXIMIZING SUCCESS</h2>
             <h1 className='md:text-6xl text-5xl'>JOURNEY WITH</h1>
-            <h1 className='gradient-text md:text-6xl text-5xl mb-8'>DFM Trade</h1>
+            <h1 className='gradient-text md:text-6xl text-5xl mb-8'>Bloombax</h1>
             <p className='text-lg'>The cutting-edge artificial intelligence tool designed to elevate your experience in the world of cryptocurrency and crowdfunding. Our trade solutions are tailored to empower you with insights, strategies, and personalized recommendations, ensuring you make the most informed decisions on your financial journey. </p>
            </div>
         </div>

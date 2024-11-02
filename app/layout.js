@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bgGradient bg-gray-950 relative`}>
+      <body className={`${roboto.className} bgGradient bg-[#f3eeee] text-black relative`}>
         <Toaster position="top-right" />
         <RenderStars count={400} />
         <GlobalProvider>

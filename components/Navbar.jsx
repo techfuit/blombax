@@ -3,6 +3,7 @@ import { cn } from '@/lib/cn'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import Logo from "@/public/bloombax-logo.png"
 
 export default function Navbar() {
 
@@ -63,7 +64,7 @@ export default function Navbar() {
   return (
     <div className={cn('flex items-center justify-between fixed top-0 left-0 w-full px-10', isScrolled && "fixed top-0 left-0 w-full px-10 z-20 animate-fadeInDown bg-base-glass-color backdrop-blur-md shadow-shadow-bg ")}>
       <div className='w-32 h-20 flex items-center justify-center'>
-        <Image src="/DFM Logo Dark Mode.png" height={500} width={800} priority alt="DFM logo" className='object-contain' />
+        <Image src={Logo} priority alt="DFM logo" className='object-contain' />
       </div>
       <div className={cn("lg:flex hidden", isOpen && "flex gap-5 fixed top-0 left-0 rounded-md bg-[#0000005d]  h-screen z-10 w-full")}>
         <div className={cn(isOpen && "flex flex-col items-center justify-center w-60 bg-base-glass-color glassBlur ")}>

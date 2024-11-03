@@ -11,7 +11,7 @@ export default function Navbar() {
     { title: "Home", link: "#home" },
     { title: "Crypto", link: "#crypto" },
     { title: "About", link: "#about" },
-    { title: "Crowdfunding", link: "#crowdfunding" },
+    { title: "Tokenomics", link: "#crowdfunding" },
     { title: "Roadmap", link: "#roadmap" },
   ]
 

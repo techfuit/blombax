@@ -12,8 +12,7 @@ export default function Navbar() {
     { title: "Crypto", link: "#crypto" },
     { title: "About", link: "#about" },
     { title: "Crowdfunding", link: "#crowdfunding" },
-    { title: "Features", link: "#features" },
-    
+    { title: "Roadmap", link: "#roadmap" },
   ]
 
   const [isScrolled, setIsScrolled] = useState(false);

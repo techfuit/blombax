@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Crypto() {
   return (
     <div className=' py-10' id="crypto">
-      <LayoutCard title="Crypto" highlight="Unleashed">
+      <LayoutCard >
         <div className='grid md:grid-cols-2 grid-cols-1 gap-5'>
            <div className='relative '>
               <Image height={500} width={500} src="/crptyo.png" alt="Cripto image" className='w-[480px]' />
@@ -14,7 +14,7 @@ export default function Crypto() {
             <h2 className='gradient-text text-lg font-semibold'>Empower Your Finances with the Power of Cryptocurrency</h2>
             <h1 className='md:text-6xl text-5xl'>Financial Empowerment  </h1>
             <h1 className='gradient-text md:text-6xl text-5xl mb-8'>through Cryptocurrency</h1>
-            <p className='text-lg'>Bloombax creates customized investment plans tailored to your financial goals, risk tolerance, and market conditions. Continuously learning and adapting, our system ensures your portfolio aligns with your objectives, offering personalized recommendations for optimal growth and success in the dynamic world of crypto and crowdfunding. Check out our trading website, Bloombax, to experience the future of personalized investment.</p>
+            <p className='text-lg'>BloomBax transcends industry boundaries, driving transactions, DeFi innovations, and e-commerce solutions while delivering exceptional value. Stake your BMX to earn consistent, lucrative rewards, because with BMX, holding truly pays off. Backed by top players across various sectors, BloomBax ensures BMX's long-term success, allowing you to invest with confidence alongside those who believe in its potential.</p>
            </div>
         </div>
       </LayoutCard>

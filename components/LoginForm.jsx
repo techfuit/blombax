@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react'
+import Logo from "@/public/Gold-bloom.png"
 
 export default function LoginForm({ submitForm }) {
 
@@ -24,12 +25,12 @@ export default function LoginForm({ submitForm }) {
   
     return (
         <div className='p-10 max-sm:px-5 my-10'>
-            <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto bg-[#01142b] rounded-2xl gap-5'>
-            <Image alt="Logo" width={800} height={500} priority src="/DFM Logo Dark Mode.png" className='h-24 w-60 object-contain' />
+            <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto bg-[#a2bfcaea] rounded-2xl gap-5'>
+            <Image alt="Logo" src={Logo} className=' h-24 object-cover  rounded-md' />
                 <p className=''>Login here to access your account</p>
                 <form onSubmit={submitForm} className='w-full'>
                     <div>
-                        <label htmlFor="email" className='font-medium text-gray-300'>E-mail or Username</label>
+                        <label htmlFor="email" className='font-medium text-black'>E-mail or Username</label>
                         <input
                             type="email || text"
                             id="email"
@@ -39,14 +40,14 @@ export default function LoginForm({ submitForm }) {
                             onChange={handleChange}
 
                         />
-                        <label htmlFor="password" className='font-medium text-gray-300'>Password</label>
+                        <label htmlFor="password" className='font-medium text-black'>Password</label>
                         <div className="relative">
                             <input
                                 type={showPassword.password ? "text" : "password"}
                                 id="password"
                                 name="password"
                                 required
-                                className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                                className='w-full mb-2.5 px-5 py-2 text-lg text-black border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                                 onChange={handleChange}
                             />
                             <button
@@ -95,7 +96,7 @@ export default function LoginForm({ submitForm }) {
                             id="rememberMe"
                             className="mr-2"
                         />
-                        <label htmlFor="rememberMe" className="text-lg text-gray-300">
+                        <label htmlFor="rememberMe" className="text-lg text-black">
                             Remember Me
                         </label>
                     </div>

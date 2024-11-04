@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import React, { useState } from 'react'
+import Logo from "@/public/Gold-bloom.png"
 
 export default function ForgetPasswordForm() {
   const [formData, setFormData] = useState({});
@@ -17,12 +18,12 @@ export default function ForgetPasswordForm() {
   return (
     <div>
       <div className='p-10 max-sm:px-5 my-10'>
-        <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto bg-[#01142b] rounded-2xl gap-5'>
-        <Image alt="Logo" width={800} height={500} priority src="/DFM Logo Dark Mode.png" className='h-24 w-60 object-contain' />
+        <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto bg-[#9fddf0] rounded-2xl gap-5'>
+        <Image alt="Logo" src={Logo} className='h-24 object-cover rounded-md' />
           <p className='text-center text-lg font-medium'> If you have forgotten your password, enter your username and we will email you your password. </p>
           <form onSubmit="#" className='w-full'>
             <div>
-              <label htmlFor="username" className='font-medium text-gray-300'>Username</label>
+              <label htmlFor="username" className='font-medium text-black'>Username</label>
               <input
                 type="text"
                 id="username"
@@ -34,7 +35,7 @@ export default function ForgetPasswordForm() {
               />
             </div>
             <div>
-              <label htmlFor="email" className='font-medium text-gray-300'>E-mail</label>
+              <label htmlFor="email" className='font-medium text-black'>E-mail</label>
               <input
                 type="email"
                 id="email"

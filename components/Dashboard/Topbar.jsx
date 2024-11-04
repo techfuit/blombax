@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import Logout from '../Logout/logout';
 import { useGlobalContextProvider } from '@/hook/useContext';
 import Image from 'next/image';
+import Logo from "@/public/Gold-bloom.png"
 
 export default function Topbar() {
     const [isOpenDropDown, setOpenDropDown] = useState(false);
@@ -38,7 +39,7 @@ export default function Topbar() {
                 </svg>
             </div>
             <div>
-                    <Image src="/DFM Logo Dark Mode.png" alt="Logo" height={500} width={800} priority className={cn('h-12 object-contain w-40')} />
+                    <Image alt="Logo" src={Logo} className={cn('h-12 object-cover w-40 rounded-md')} />
                 </div>
             <div className='flex gap-2 items-center relative cursor-pointer' ref={ref} onClick={toggleOpen}>
               <Logout className="rounded-full" />

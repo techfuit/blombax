@@ -7,7 +7,7 @@ import Image from 'next/image';
 import CountryInput from './CountryInput';
 import PhoneNumberInput from './PhoneNumberInput';
 import { fetchCheckUserExistByUsername } from '@/app/actions/fetchCheckUserExistsByUsername';
-
+import Logo from "@/public/Gold-bloom.png"
 
 function Register () {
 
@@ -215,8 +215,8 @@ function Register () {
 
   return (
     <div className='p-10 max-sm:px-5 my-10'>
-      <div className='flex flex-col items-center max-sm:px-5 p-10 md:w-[620px] mx-auto bg-[#01142b] rounded-2xl gap-5'>
-        <Image alt="Logo" width={800} height={500} priority src="/DFM Logo Dark Mode.png" className='h-24 w-60 object-contain' />
+      <div className='flex flex-col items-center max-sm:px-5 p-10 md:w-[620px] mx-auto bg-[#a8cfdb] rounded-2xl gap-5'>
+        <Image alt="Logo" src={Logo} className='h-24 object-cover rounded-md' />
         <p className=''>Register with DFM</p>
         <form onSubmit={handleSubmit} className='w-full'>
 
@@ -224,11 +224,11 @@ function Register () {
           <div className='flex flex-col max-sm:gap-3'>
             <div className='flex sm:gap-5 max-sm:flex-col '>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="country" className='font-medium text-gray-300' >Country</label>
+                <label htmlFor="country" className='font-medium text-black' >Country</label>
                 <CountryInput name="country" id="country" onChange={handleChange} />
               </div>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="phone" className='font-medium text-gray-300'>Phone Number</label>
+                <label htmlFor="phone" className='font-medium text-black'>Phone Number</label>
                 <PhoneNumberInput
                   name="phone_number"
                   id="phone_number"
@@ -239,7 +239,7 @@ function Register () {
             </div>
             <div className='flex sm:gap-5 max-sm:flex-col '>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="name" className='font-medium text-gray-300'>Full Name</label>
+                <label htmlFor="name" className='font-medium text-black'>Full Name</label>
                 <input
                   type="text"
                   id="name"
@@ -250,7 +250,7 @@ function Register () {
                 />
               </div>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="username" className='font-medium text-gray-300'>User Name</label>
+                <label htmlFor="username" className='font-medium text-black'>User Name</label>
                 <input
                   type="text"
                   id="username"
@@ -263,7 +263,7 @@ function Register () {
               </div>
             </div>
             <div className='w-full max-sm:-my-3'>
-              <label htmlFor="email" className='font-medium text-gray-300'>Email Address</label>
+              <label htmlFor="email" className='font-medium text-black'>Email Address</label>
               <input
                 type="email"
                 id="email"
@@ -275,7 +275,7 @@ function Register () {
             </div>
             <div className='flex sm:gap-5 max-sm:flex-col '>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="password" className='font-medium text-gray-300'>Password</label>
+                <label htmlFor="password" className='font-medium text-black'>Password</label>
                 <div className="relative">
                   <input 
                     type={showPassword.password ? "text" : "password"}
@@ -325,7 +325,7 @@ function Register () {
                 </div>
               </div>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="confirmPassword" className='font-medium text-gray-300'>Confirm Password</label>
+                <label htmlFor="confirmPassword" className='font-medium text-black'>Confirm Password</label>
                 <div className="relative">
                   <input
                     type={showPassword.confirmPassword ? "text" : "password"}
@@ -377,7 +377,7 @@ function Register () {
             </div>
             <div className='flex sm:gap-5 max-sm:flex-col '>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="refered_by" className='font-medium text-gray-300'>Referral ID</label>
+                <label htmlFor="refered_by" className='font-medium text-black'>Referral ID</label>
                 <input
                   type="text"
                   id="refered_by"
@@ -390,8 +390,8 @@ function Register () {
                 />
               </div>
               <div className='sm:w-1/2 w-full'>
-                <label htmlFor="side" className='font-medium text-gray-300'>Placement</label>
-                <div className='w-full px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none focus:ring-1 bg-[#01142b] mb-2.5 mt-1 flex gap-3 items-center'>
+                <label htmlFor="side" className='font-medium text-black'>Placement</label>
+                <div className='w-full px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none focus:ring-1 bg-[#ffffff50] mb-2.5 mt-1 flex gap-3 items-center'>
                   <div className='flex items-center'>
                     <input
                       type="radio"
@@ -404,7 +404,7 @@ function Register () {
                       checked={formData.side === 'left'}
                       onChange={handleChange}
                     />
-                    <label htmlFor="left" className='font-medium text-gray-300'>Left</label>
+                    <label htmlFor="left" className='font-medium text-black'>Left</label>
                   </div>
                   <div className='flex items-center'>
                     <input
@@ -418,7 +418,7 @@ function Register () {
                       checked={formData.side === 'right'}
                       onChange={handleChange}
                     />
-                    <label htmlFor="right" className='font-medium text-gray-300'>Right</label>
+                    <label htmlFor="right" className='font-medium text-black'>Right</label>
                   </div>
                 </div>
               </div>

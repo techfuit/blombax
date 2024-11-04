@@ -18,10 +18,10 @@ module.exports = {
         // "#110218"
         "base-color": "#2600fc",
         "base-glass-color": "#00000050",
-        "glass-color": "#ffffff10",
+        "glass-color": "#ffffff10", 
         "form-color" : "#00acee",
-        "button-color": "#5036f5",
-        "button-hover-color": "#351bd8",
+        "button-color": "#f8911e",
+        "button-hover-color": "#f8922e",
         "tg-gradient-1-start": "rgba(2, 154, 210, 1)",
         "tg-gradient-1-end": "rgba(3, 39, 83, 1)",
       },

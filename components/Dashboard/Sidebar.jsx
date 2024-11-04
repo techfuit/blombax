@@ -226,7 +226,7 @@ const SidenavData = [
                 fill='currentColor'
             >
                 <path
-                    fill="#fff"
+                    fill="#000"
                     d="M288.328 312.524c-19.597 14.097-49.94 13.52-68.971-1.228l-16.67 20.807-75.798 28.643 44.487 67.725 3.817 80.94 78.158-21.382 78.157 21.382 3.817-80.94 44.486-67.725-75.798-28.643zM194.705 90h-75.001v92.126l75.001 37.5zM119.704 0h270.001v60H119.704zm165.001 210.928V90h-60v120.928c17.395-10.65 42.605-10.65 60 0zm30 8.698 75-37.5V90h-75zm-60 73.229c16.569 0 30-13.431 30-30-1.471-39.752-58.535-39.741-60 0 0 16.569 13.432 30 30 30z"
                 />
             </svg>
@@ -417,7 +417,7 @@ export default function Sidebar() {
                     return (
                         <div key={itemIndex} className="my-1">
                             {hasChildren ? (
-                                <div className={cn('cursor-pointer items-center justify-between  hover:bg-button-hover-color py-3 px-4 rounded-md ', isOpen ? "flex" : "hidden ", isActive ? "bg-base-color hover:bg-base-color" : "")} onClick={() => handleToggle(itemIndex)}>
+                                <div className={cn('cursor-pointer items-center justify-between  hover:bg-button-hover-color py-3 px-4 rounded-md ', isOpen ? "flex" : "hidden ", isActive ? "bg-[#f8911e] hover:bg-[#f8911e]" : "")} onClick={() => handleToggle(itemIndex)}>
                                     <div className={cn(isOpen ? 'flex gap-2' : "hidden")}>
                                         { item.icon }
                                         { item.title }
@@ -437,7 +437,7 @@ export default function Sidebar() {
                                     <Logout className="rounded-md hover:bg-button-hover-color py-3 px-4" title="Log Out" />
                                 </div>
                             </div> :
-                                <Link href={item.link} className={cn(' gap-2 items-center hover:bg-button-hover-color py-3 px-4 rounded-md', isOpen ? "flex" : "hidden", isActive ? "bg-base-color hover:bg-base-color" : "")}
+                                <Link href={item.link} className={cn(' gap-2 items-center hover:bg-button-hover-color py-3 px-4 rounded-md', isOpen ? "flex" : "hidden", isActive ? "bg-[#f8911e] hover:bg-[#f8911e]" : "")}
                                     onClick={() => handleItemClick(item.link, hasChildren)}
                                 >
                                     {item.icon}

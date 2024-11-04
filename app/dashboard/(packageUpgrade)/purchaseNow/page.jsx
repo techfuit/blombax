@@ -132,7 +132,7 @@ function PurchaseNow() {
 
   return (
     <div className='bg-glass-color glassBlur rounded-2xl my-5 p-5'>
-      <h2 className='text-4xl font-bold gradient-text2 text-center mb-8'>Purchase</h2>
+      <h2 className='text-4xl font-bold  text-[#293b79] text-center mb-8'>Swap BMX</h2>
       <p className='text-2xl font-bold text-center mb-4'>Available Deposit Balance <span className='text-blue-500'>${data?.deposit || 0.00}</span> </p>
       <form onSubmit={handleSubmit} className='flex items-center flex-col gap-5 justify-center px-5 pb-5'>
         <div className='flex flex-col gap-1 justify-center w-full sm:w-[500px]'>

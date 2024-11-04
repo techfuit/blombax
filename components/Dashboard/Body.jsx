@@ -42,27 +42,14 @@ useEffect(() => {
           </div>
         </div>
         <Card title="Deposit" amount={isNaN(Number(data?.deposit)) ? "0.00" : Number(data?.deposit).toFixed(2)}/>
+        <Card title="Total Deposit" amount={isNaN(Number(data?.deposit)) ? "0.00" : Number(data?.deposit).toFixed(2)}/>
         <Card title="Withdraw" amount={isNaN(Number(data?.withdraw )) ? "0.00" : Number(data?.withdraw ).toFixed(2)} />
         <Card title="Total Withdraw" amount={isNaN(Number(data?.total_withdraw)) ? "0.00" : Number(data?.total_withdraw).toFixed(2)} />
-        <Card title="ROI Bonus" amount={isNaN(Number(data?.roi_bonus)) ? "0.00" : Number(data?.roi_bonus).toFixed(2)} />
+        <Card title="Staking Reward" amount={isNaN(Number(data?.roi_bonus)) ? "0.00" : Number(data?.roi_bonus).toFixed(2)} />
         <Card title="Direct Bonus" amount={isNaN(Number(data?.direct_bonus)) ? "0.00" : Number(data?.direct_bonus ).toFixed(2)} />
         <Card title="Team Bonus" amount={isNaN(Number(data?.team_bonus)) ? "0.00" : Number(data?.team_bonus ).toFixed(2)} />
-        <Card title="Matching Bonus" amount={isNaN(Number(data?.matching_bonus)) ? "0.00" : Number(data?.matching_bonus).toFixed(2)} />
-        <Card title="Monthly Reward" amount={isNaN(Number(data?.monthly_reward)) ? "0.00" : Number(data?.monthly_reward).toFixed(2)} />
+        <Card title="Equity" amount={isNaN(Number(data?.matching_bonus)) ? "0.00" : Number(data?.matching_bonus).toFixed(2)} />
         <Card title="Rank & Reward" amount={isNaN(Number(data?.rank_reward)) ? "0.00" : Number(data?.rank_reward).toFixed(2)} />
-        <Card title="ROI Volume - Left
-" amount={isNaN(Number(data?.roi_volume_left)) ? "0.00" : Number(data?.roi_volume_left).toFixed(2)} />
-        <Card title="ROI Volume - Right
-" amount={isNaN(Number(data?.roi_volume_right )) ? "0.00" : Number(data?.roi_volume_right ).toFixed(2)} />
-        <Card title="Business Volume - Left
-" amount={isNaN(Number(data?.business_volume_left )) ? "0.00" : Number(data?.business_volume_left ).toFixed(2)} />
-        <Card title="Business Volume - Right
-" amount={isNaN(Number(data?.business_volume_right )) ? "0.00" : Number(data?.business_volume_right ).toFixed(2)} />
-        <Card title="Business Volume - Yesterday
-" amount={isNaN(Number(data?.business_volume_yesterday )) ? "0.00" : Number(data?.business_volume_yesterday ).toFixed(2)} />
-        <Card title="This Monthly - Left
-" amount={isNaN(Number(data?.this_month_left )) ? "0.00" : Number(data?.this_month_left ).toFixed(2)} />
-        <Card title="This Monthly - Right" amount={isNaN(Number(data?.this_month_right)) ? "0.00" : Number(data?.this_month_right ).toFixed(2)} />
       </div>
     </div>
   ) 

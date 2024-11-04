@@ -11,20 +11,6 @@ export default function Hero() {
     return (
         <div className='bg-glass-color glassBlur my-5 rounded-2xl shadow-shadow-bg'>
             <div className='rounded-ss-2xl rounded-se-2xl bg-[url("/profileBg.jpg")] bg-cover bg-center h-80 relative'>
-            
-                {/* <div className='absolute -bottom-16 left-5'>
-                    <svg
-                        viewBox="0 0 512 512"
-                        fill="currentColor"
-                        className="md:w-28 w-16 bg-blue-500 rounded-full p-1 shadow-shadow-bg"
-                    >
-                        <path d="M256,508C117.04,508,4,394.96,4,256S117.04,4,256,4s252,113.04,252,252S394.96,508,256,508z" fill="#FFFFFF" />
-                        <path d="M256,8c136.752,0,248,111.248,248,248S392.752,504,256,504S8,392.752,8,256S119.248,8,256,8 M256,0 C114.608,0,0,114.608,0,256s114.608,256,256,256s256-114.608,256-256S397.392,0,256,0L256,0z" fill="#D6D6D6" />
-                        <ellipse cx="256" cy="175.648" rx="61.712" ry="60.48" fill="#0BA4E0" />
-                        <path d="M362.592,360.624c0-57.696-47.728-104.464-106.592-104.464s-106.592,46.768-106.592,104.464H362.592z" fill="#0BA4E0" />
-                    </svg>
-                </div> */}
-
             </div>
             <div className=' mx-3 mt-20 pb-10 '>
                 <div className='bg-blue-500 p-3 rounded-ss-2xl rounded-se-2xl'>

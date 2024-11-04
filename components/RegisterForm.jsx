@@ -215,7 +215,7 @@ function Register () {
 
   return (
     <div className='p-10 max-sm:px-5 my-10'>
-      <div className='flex flex-col items-center max-sm:px-5 p-10 md:w-[620px] mx-auto bg-[#a8cfdb] rounded-2xl gap-5'>
+      <div className='flex flex-col items-center max-sm:px-5 p-10 md:w-[620px] mx-auto rounded-2xl gap-5'>
         <Image alt="Logo" src={Logo} className='h-24 object-cover rounded-md' />
         <p className=''>Register with DFM</p>
         <form onSubmit={handleSubmit} className='w-full'>
@@ -245,7 +245,7 @@ function Register () {
                   id="name"
                   name="name"
                   required
-                  className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                  className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                   onChange={handleChange}
                 />
               </div>
@@ -257,7 +257,7 @@ function Register () {
                   name="username"
                   minLength={4}
                   required
-                  className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                  className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                   onChange={handleChange}
                 />
               </div>
@@ -269,7 +269,7 @@ function Register () {
                 id="email"
                 name="email"
                 required
-                className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                 onChange={handleChange}
               />
             </div>
@@ -282,7 +282,7 @@ function Register () {
                     id="password"
                     name="password"
                     required
-                    className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                    className='w-full mb-2.5 px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                     onChange={handleChange}
                   />
                   <button
@@ -332,7 +332,7 @@ function Register () {
                     id="confirmPassword"
                     name="confirmPassword"
                     required
-                    className='w-full px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
+                    className='w-full px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none mt-1 focus:ring-1 bg-transparent'
                     onChange={handleChange}
                   />
                   <button
@@ -375,54 +375,21 @@ function Register () {
                 </div>
               </div>
             </div>
-            <div className='flex sm:gap-5 max-sm:flex-col '>
-              <div className='sm:w-1/2 w-full'>
+
+              <div className='w-full'>
                 <label htmlFor="refered_by" className='font-medium text-black'>Referral ID</label>
                 <input
                   type="text"
                   id="refered_by"
                   name="refered_by"
                   required
-                  className='w-full px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none focus:ring-1 bg-transparent mb-2.5 mt-1'
+                  className='w-full px-5 py-2 text-lg border border-opacity-60 border-black rounded-md focus:outline-none focus:ring-1 bg-transparent mb-2.5 mt-1'
                   onChange={handleChange}
                   value={formData.refered_by}
                   readOnly={isReferralLocked}
                 />
               </div>
-              <div className='sm:w-1/2 w-full'>
-                <label htmlFor="side" className='font-medium text-black'>Placement</label>
-                <div className='w-full px-5 py-2 text-lg border border-opacity-60 border-white rounded-md focus:outline-none focus:ring-1 bg-[#ffffff50] mb-2.5 mt-1 flex gap-3 items-center'>
-                  <div className='flex items-center'>
-                    <input
-                      type="radio"
-                      id="left"
-                      name="side"
-                      value="left"
-                      className=' mr-2 size-4 '
-                      required
-                      disabled={isSideLocked}
-                      checked={formData.side === 'left'}
-                      onChange={handleChange}
-                    />
-                    <label htmlFor="left" className='font-medium text-black'>Left</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <input
-                      type="radio"
-                      id="right"
-                      name="side"
-                      value="right"
-                      className='mr-2 size-4'
-                      required
-                      disabled={isSideLocked}
-                      checked={formData.side === 'right'}
-                      onChange={handleChange}
-                    />
-                    <label htmlFor="right" className='font-medium text-black'>Right</label>
-                  </div>
-                </div>
-              </div>
-            </div>
+              
             {/* Form Field */}
             <div className='mb-3 flex justify-center'>
               <label htmlFor="tc">

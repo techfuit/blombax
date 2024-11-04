@@ -18,7 +18,7 @@ export default function ForgetPasswordForm() {
   return (
     <div>
       <div className='p-10 max-sm:px-5 my-10'>
-        <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto bg-[#9fddf0] rounded-2xl gap-5'>
+        <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto rounded-2xl gap-5'>
         <Image alt="Logo" src={Logo} className='h-24 object-cover rounded-md' />
           <p className='text-center text-lg font-medium'> If you have forgotten your password, enter your username and we will email you your password. </p>
           <form onSubmit="#" className='w-full'>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function CountryInput({name, id, onChange}) {
     return (
         <div>
-            <select name={name} id={id} onChange={onChange} className='w-full px-5 py-2.5 text-lg border border-opacity-60 border-white rounded-md focus:outline-none focus:ring-1 bg-[#ffffff50] mb-2.5 mt-1' required >
+            <select name={name} id={id} onChange={onChange} className='w-full px-5 py-2.5 text-lg border border-opacity-60 border-black rounded-md focus:outline-none focus:ring-1 bg-[#ffffff50] mb-2.5 mt-1' required >
                 <option value="">Select Country</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Albania">Albania</option>

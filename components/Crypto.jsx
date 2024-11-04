@@ -14,7 +14,7 @@ export default function Crypto() {
             <h2 className='gradient-text text-lg font-semibold'>Empower Your Finances with the Power of Cryptocurrency</h2>
             <h1 className='md:text-6xl text-5xl'>Financial Empowerment  </h1>
             <h1 className='gradient-text md:text-6xl text-5xl mb-8'>through Cryptocurrency</h1>
-            <p className='text-lg'>BloomBax transcends industry boundaries, driving transactions, DeFi innovations, and e-commerce solutions while delivering exceptional value. Stake your BMX to earn consistent, lucrative rewards, because with BMX, holding truly pays off. Backed by top players across various sectors, BloomBax ensures BMX's long-term success, allowing you to invest with confidence alongside those who believe in its potential.</p>
+            <p className='text-lg'>{`BloomBax transcends industry boundaries, driving transactions, DeFi innovations, and e-commerce solutions while delivering exceptional value. Stake your BMX to earn consistent, lucrative rewards, because with BMX, holding truly pays off. Backed by top players across various sectors, BloomBax ensures BMX's long-term success, allowing you to invest with confidence alongside those who believe in its potential.`} </p>
            </div>
         </div>
       </LayoutCard>

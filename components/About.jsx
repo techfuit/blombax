@@ -15,7 +15,7 @@ export default function About() {
             <h2 className='gradient-text text-lg font-semibold'>AI-Powered Financial Analysis</h2>
             <h1 className='md:text-6xl text-5xl'>Use Data Insights to Elevate Your</h1>
             <h1 className='gradient-text md:text-6xl text-5xl mb-8'>Investment Strategy</h1>
-            <p className='text-lg'>*BloomBax (BMX)* is a revolutionary token built on the *BNB Smart Chain* designed to be a cornerstone of growth, wealth, and innovation. With BloomBax, you're not just investing in a token—you’re investing in a vision. Our goal is to make BMX the most profitable and valuable token in the world by delivering unmatched utility, strong partnerships, and long-term stability.</p>
+            <p className='text-lg'>{`*BloomBax (BMX)* is a revolutionary token built on the *BNB Smart Chain* designed to be a cornerstone of growth, wealth, and innovation. With BloomBax, you're not just investing in a token—you’re investing in a vision. Our goal is to make BMX the most profitable and valuable token in the world by delivering unmatched utility, strong partnerships, and long-term stability.`}</p>
            </div> 
         </div>
       </LayoutCard>

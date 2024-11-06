@@ -7,7 +7,7 @@ import Image from 'next/image';
 import CountryInput from './CountryInput';
 import PhoneNumberInput from './PhoneNumberInput';
 import { fetchCheckUserExistByUsername } from '@/app/actions/fetchCheckUserExistsByUsername';
-import Logo from "@/public/Gold-bloom.png"
+import Logo from "@/public/Logo.png"
 
 function Register () {
 

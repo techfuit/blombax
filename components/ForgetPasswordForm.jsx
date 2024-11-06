@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Logo from "@/public/Gold-bloom.png"
+import Logo from "@/public/Logo.png"
 
 export default function ForgetPasswordForm() {
   const [formData, setFormData] = useState({});

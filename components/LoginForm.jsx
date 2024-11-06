@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react'
-import Logo from "@/public/Gold-bloom.png"
+import Logo from "@/public/Logo.png"
 
 export default function LoginForm({ submitForm }) {
 
@@ -26,7 +26,7 @@ export default function LoginForm({ submitForm }) {
     return (
         <div className='p-10 max-sm:px-5 my-10'>
             <div className='flex flex-col items-center p-10 max-sm:px-5 md:w-[620px] mx-auto rounded-2xl gap-5'>
-            <Image alt="Logo" src={Logo} className=' h-24 object-cover  rounded-md' />
+            <Image alt="Logo" src={Logo} className=' h-24 object-cover rounded-md' />
                 <p className=''>Login here to access your account</p>
                 <form onSubmit={submitForm} className='w-full'>
                     <div>

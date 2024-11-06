@@ -7,7 +7,7 @@ import { GlobalProvider } from "@/hook/useContext";
 const roboto = Poppins({ subsets: ["latin"], weight: ["100", "200" , "300" , "400", "500", "600", "700", "800", "900"] });
  
 export const metadata = {
-  title: "DFM Trade",
+  title: "Bloombax",
   description: "Trusted trading platform",
 };
 

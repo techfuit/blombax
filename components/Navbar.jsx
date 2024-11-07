@@ -64,12 +64,12 @@ export default function Navbar() {
   return (
     <div className={cn('flex items-center justify-between fixed top-0 left-0 w-full px-10', isScrolled && "fixed top-0 left-0 w-full px-10 z-20 animate-fadeInDown bg-base-glass-color backdrop-blur-md shadow-shadow-bg ")}>
       <div className='w-32 h-20 flex items-center justify-center'>
-        <Image src={Logo} priority alt="DFM logo" className='object-cover' />
+        <Image src={Logo} priority alt="BMX logo" className='object-cover' />
       </div>
       <div className={cn("lg:flex hidden", isOpen && "flex gap-5 fixed top-0 left-0 rounded-md bg-[#0000005d] h-screen z-10 w-full")}>
         <div className={cn(isOpen && "flex flex-col items-center justify-center w-60 bg-base-glass-color glassBlur ")}>
           <div className={cn(isOpen ? "block" : "hidden")}>
-            <Image src="/DFM Logo Dark Mode.png" height={500} width={500} alt="DFM logo" className='w-32 h-12 flex items-center justify-center absolute top-10 left-5' />
+            <Image src={Logo}  alt="BMX logo" className='w-52 h-28 object-cover flex items-center justify-center absolute top-10 left-2' />
             <button className='absolute top-0 right-0 p-2' onClick={closeMenu}>
               <svg
                 viewBox="0 0 1024 1024"

@@ -14,7 +14,7 @@
       "static/chunks/fd9d1056-994490b4110800f8.js",
       "static/chunks/23-befdc97ff4f44947.js",
       "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/css/798fd7092b51b2f9.css",
+      "static/css/d3306bd9cd8f97ea.css",
       "static/chunks/726-e38b312073936904.js",
       "static/chunks/app/layout-3c14ad292b5f6194.js"
     ],
@@ -70,15 +70,15 @@
       "static/chunks/868-a1d8889fb139f6fe.js",
       "static/chunks/648-fb2c5f0883b0439c.js",
       "static/chunks/231-1fa26e1148ebaa53.js",
-      "static/chunks/app/page-14ea5833b230070c.js"
+      "static/chunks/app/page-12267815da348ef0.js"
     ],
-    "/dashboard/(Bonus)/directBonus/page": [
+    "/dashboard/(Network)/binaryNetwork/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
       "static/chunks/fd9d1056-994490b4110800f8.js",
       "static/chunks/23-befdc97ff4f44947.js",
       "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Bonus)/directBonus/page-a347ecab1451d920.js"
+      "static/chunks/726-e38b312073936904.js",
+      "static/chunks/app/dashboard/(Network)/binaryNetwork/page-3d0e1ac7a6cb6ed4.js"
     ],
     "/dashboard/layout": [
       "static/chunks/webpack-a2a47b06896756e8.js",
@@ -92,29 +92,13 @@
       "static/chunks/231-1fa26e1148ebaa53.js",
       "static/chunks/app/dashboard/layout-ec88d279b787f882.js"
     ],
-    "/dashboard/(Bonus)/leadership/page": [
+    "/dashboard/(Bonus)/directBonus/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
       "static/chunks/fd9d1056-994490b4110800f8.js",
       "static/chunks/23-befdc97ff4f44947.js",
       "static/chunks/main-app-82aa43ce3a2e1daa.js",
       "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Bonus)/leadership/page-391aa6638e3dda46.js"
-    ],
-    "/dashboard/(Network)/binaryNetwork/page": [
-      "static/chunks/webpack-a2a47b06896756e8.js",
-      "static/chunks/fd9d1056-994490b4110800f8.js",
-      "static/chunks/23-befdc97ff4f44947.js",
-      "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/726-e38b312073936904.js",
-      "static/chunks/app/dashboard/(Network)/binaryNetwork/page-3d0e1ac7a6cb6ed4.js"
-    ],
-    "/dashboard/(Bonus)/matching/page": [
-      "static/chunks/webpack-a2a47b06896756e8.js",
-      "static/chunks/fd9d1056-994490b4110800f8.js",
-      "static/chunks/23-befdc97ff4f44947.js",
-      "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Bonus)/matching/page-4eda539a3804866a.js"
+      "static/chunks/app/dashboard/(Bonus)/directBonus/page-a347ecab1451d920.js"
     ],
     "/dashboard/(Bonus)/roi/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
@@ -132,14 +116,6 @@
       "static/chunks/868-a1d8889fb139f6fe.js",
       "static/chunks/app/dashboard/(Bonus)/team/page-ec92519933f68cca.js"
     ],
-    "/dashboard/(Network)/directNetwork/page": [
-      "static/chunks/webpack-a2a47b06896756e8.js",
-      "static/chunks/fd9d1056-994490b4110800f8.js",
-      "static/chunks/23-befdc97ff4f44947.js",
-      "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Network)/directNetwork/page-77e88dec4b4fc18e.js"
-    ],
     "/dashboard/(Withdraw)/withdrawNow/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
       "static/chunks/fd9d1056-994490b4110800f8.js",
@@ -147,14 +123,6 @@
       "static/chunks/main-app-82aa43ce3a2e1daa.js",
       "static/chunks/726-e38b312073936904.js",
       "static/chunks/app/dashboard/(Withdraw)/withdrawNow/page-2ae921768372a28d.js"
-    ],
-    "/dashboard/(Reward)/monthly/page": [
-      "static/chunks/webpack-a2a47b06896756e8.js",
-      "static/chunks/fd9d1056-994490b4110800f8.js",
-      "static/chunks/23-befdc97ff4f44947.js",
-      "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Reward)/monthly/page-90358d6eaa2f5d79.js"
     ],
     "/dashboard/(deposit)/depositHistory/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
@@ -164,13 +132,37 @@
       "static/chunks/868-a1d8889fb139f6fe.js",
       "static/chunks/app/dashboard/(deposit)/depositHistory/page-90ec8ad27edbcf46.js"
     ],
-    "/dashboard/(Reward)/rank/page": [
+    "/dashboard/(Network)/directNetwork/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
       "static/chunks/fd9d1056-994490b4110800f8.js",
       "static/chunks/23-befdc97ff4f44947.js",
       "static/chunks/main-app-82aa43ce3a2e1daa.js",
       "static/chunks/868-a1d8889fb139f6fe.js",
-      "static/chunks/app/dashboard/(Reward)/rank/page-9afca4955a28921a.js"
+      "static/chunks/app/dashboard/(Network)/directNetwork/page-77e88dec4b4fc18e.js"
+    ],
+    "/dashboard/(Bonus)/leadership/page": [
+      "static/chunks/webpack-a2a47b06896756e8.js",
+      "static/chunks/fd9d1056-994490b4110800f8.js",
+      "static/chunks/23-befdc97ff4f44947.js",
+      "static/chunks/main-app-82aa43ce3a2e1daa.js",
+      "static/chunks/868-a1d8889fb139f6fe.js",
+      "static/chunks/app/dashboard/(Bonus)/leadership/page-391aa6638e3dda46.js"
+    ],
+    "/dashboard/(Reward)/monthly/page": [
+      "static/chunks/webpack-a2a47b06896756e8.js",
+      "static/chunks/fd9d1056-994490b4110800f8.js",
+      "static/chunks/23-befdc97ff4f44947.js",
+      "static/chunks/main-app-82aa43ce3a2e1daa.js",
+      "static/chunks/868-a1d8889fb139f6fe.js",
+      "static/chunks/app/dashboard/(Reward)/monthly/page-90358d6eaa2f5d79.js"
+    ],
+    "/dashboard/(Bonus)/matching/page": [
+      "static/chunks/webpack-a2a47b06896756e8.js",
+      "static/chunks/fd9d1056-994490b4110800f8.js",
+      "static/chunks/23-befdc97ff4f44947.js",
+      "static/chunks/main-app-82aa43ce3a2e1daa.js",
+      "static/chunks/868-a1d8889fb139f6fe.js",
+      "static/chunks/app/dashboard/(Bonus)/matching/page-4eda539a3804866a.js"
     ],
     "/dashboard/(deposit)/depositNow/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
@@ -180,6 +172,14 @@
       "static/chunks/726-e38b312073936904.js",
       "static/chunks/783-653a158a4cf42805.js",
       "static/chunks/app/dashboard/(deposit)/depositNow/page-36c90f54df731def.js"
+    ],
+    "/dashboard/(Reward)/rank/page": [
+      "static/chunks/webpack-a2a47b06896756e8.js",
+      "static/chunks/fd9d1056-994490b4110800f8.js",
+      "static/chunks/23-befdc97ff4f44947.js",
+      "static/chunks/main-app-82aa43ce3a2e1daa.js",
+      "static/chunks/868-a1d8889fb139f6fe.js",
+      "static/chunks/app/dashboard/(Reward)/rank/page-9afca4955a28921a.js"
     ],
     "/dashboard/(packageUpgrade)/purchaseHistory/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
@@ -227,6 +227,14 @@
       "static/chunks/758-80a9d13085f0fbe8.js",
       "static/chunks/app/dashboard/(packageUpgrade)/purchaseInvoice/page-43c59ffa570d2ef1.js"
     ],
+    "/dashboard/packages/page": [
+      "static/chunks/webpack-a2a47b06896756e8.js",
+      "static/chunks/fd9d1056-994490b4110800f8.js",
+      "static/chunks/23-befdc97ff4f44947.js",
+      "static/chunks/main-app-82aa43ce3a2e1daa.js",
+      "static/chunks/231-1fa26e1148ebaa53.js",
+      "static/chunks/app/dashboard/packages/page-75e05c8a486a834b.js"
+    ],
     "/dashboard/support/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",
       "static/chunks/fd9d1056-994490b4110800f8.js",
@@ -236,14 +244,6 @@
       "static/chunks/726-e38b312073936904.js",
       "static/chunks/648-fb2c5f0883b0439c.js",
       "static/chunks/app/dashboard/support/page-056920e40c6cd6a0.js"
-    ],
-    "/dashboard/packages/page": [
-      "static/chunks/webpack-a2a47b06896756e8.js",
-      "static/chunks/fd9d1056-994490b4110800f8.js",
-      "static/chunks/23-befdc97ff4f44947.js",
-      "static/chunks/main-app-82aa43ce3a2e1daa.js",
-      "static/chunks/231-1fa26e1148ebaa53.js",
-      "static/chunks/app/dashboard/packages/page-75e05c8a486a834b.js"
     ],
     "/dashboard/(packageUpgrade)/purchaseNow/page": [
       "static/chunks/webpack-a2a47b06896756e8.js",

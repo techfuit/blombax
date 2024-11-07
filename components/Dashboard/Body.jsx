@@ -23,7 +23,7 @@ useEffect(() => {
   return (
     <div className='my-5 py-2 rounded-md'>
       <div className='pb-5'>
-        <h2 className='text-center md:text-5xl text-4xl font-semibold md:font-bold '> <span className='gradient-text2 '>Welcome to DFM</span>  <span className='text-blue-500'>Dashbaord</span> </h2>
+        <h2 className='text-center md:text-5xl text-4xl font-semibold md:font-bold '> <span className='gradient-text2 '>Welcome to BMX</span>  <span className='text-blue-500'>Dashbaord</span> </h2>
       </div>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
         <div className={cn('bg-glass-color glassBlur rounded-2xl p-3 flex items-center justify-center gap-3 min-h-32')}>

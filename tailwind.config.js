@@ -22,8 +22,8 @@ module.exports = {
         "form-color" : "#00acee",
         "button-color": "#f8911e",
         "button-hover-color": "#f8922e",
-        "tg-gradient-1-start": "rgba(2, 154, 210, 1)",
-        "tg-gradient-1-end": "rgba(3, 39, 83, 1)",
+        "tg-gradient-1-start": "#9fd018",
+        "tg-gradient-1-end": "#185146",
       },
       backgroundImage: {
         "tg-gradient-1":

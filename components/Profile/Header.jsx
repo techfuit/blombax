@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 export default function Header() {
     const { user } = useAuth()
    
-    const referralIdLeft = `https://dfmtrade.com/register?referral_by=${user?.username}`
+    const referralIdLeft = `https://bloombax.com/register?referral_by=${user?.username}`
     const handleCopyLeft = () => {
         navigator.clipboard.writeText(referralIdLeft)
             .then(() => {
@@ -19,14 +19,14 @@ export default function Header() {
                 toast.error('Failed to copy referral ID');
             });
     };
-
+ 
     return (
         <div className='w-full my-5 p-3 bg-glass-color glassBlur rounded-2xl flex max-md:flex-col gap-5'>
             <div className=' w-full p-5 shadow-shadow-bg rounded-2xl'>
-                <h2 className='text-center text-4xl font-semibold gradient-text2 pb-5'>Referral Links</h2>
+                <h2 className='text-center text-4xl font-bold gradient-text pb-5'>Referral Link</h2>
                     <div className='flex flex-col gap-2 items-center justify-center'>
                         <div className='flex-row-reverse md:flex-row flex gap-3 w-full '>          
-                            <div className='px-3 py-2.5 shadow-shadow-bg flex items-center justify-center rounded-2xl  w-full overflow-hidden cursor-pointer ' onClick={handleCopyLeft}>
+                            <div className='px-3 py-2.5 shadow-shadow-bg flex items-center justify-center rounded-2xl  w-full overflow-hidden cursor-pointer' onClick={handleCopyLeft}>
                                 {referralIdLeft}
                             </div>
                             <button className='font-medium rounded-2xl px-4 py-2.5 shadow-shadow-bg hover:scale-105 bg-button-color hover:bg-button-hover-color flex gap-1 items-center justify-center ' onClick={handleCopyLeft}>

@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST='{"app\\\\RegistrationReward\\\\page.jsx -> react-confetti":{"id":81980,"files":["static/chunks/980.c5fbbb4c95304e3f.js"]}}';
+self.__REACT_LOADABLE_MANIFEST='{"app\\\\RegistrationReward\\\\page.jsx -> react-confetti":{"id":1980,"files":["static/chunks/980.7b2dc5ad57894fa4.js"]}}';

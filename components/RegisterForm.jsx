@@ -217,7 +217,7 @@ function Register () {
     <div className='p-10 max-sm:px-5 my-10'>
       <div className='flex flex-col items-center max-sm:px-5 p-10 md:w-[620px] mx-auto rounded-2xl gap-5'>
         <Image alt="Logo" src={Logo} className='h-24 object-cover rounded-md' />
-        <p className=''>Register with DFM</p>
+        <p className='lg:text-2xl text-lg font-semibold'>Register</p>
         <form onSubmit={handleSubmit} className='w-full'>
 
           {/* Form Field */}

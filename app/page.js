@@ -11,7 +11,7 @@ import LowerFooter from "@/components/LowerFooter";
 
 export default function HomePage() {
   return ( 
-    <div className="w-full px-10 bgGradient">
+    <div className="w-full px-10 bgGradient"> 
       <div className="relative z-10">
         <Navbar />
         <Home />

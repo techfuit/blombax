@@ -5,7 +5,7 @@ export async function POST(req) {
     const {username} = await req.json()
 
     const apiResponse = await fetch(
-      "https://api.dfmtrade.com/api/checkUserExistByUsername",
+      "https://api.bloombax.com/api/checkUserExistByUsername",
       {
         method: "POST",
         headers: {

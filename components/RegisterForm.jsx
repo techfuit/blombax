@@ -16,10 +16,8 @@ function Register () {
   const [loading, setLoading] = useState(false)
 
   const searchParams = useSearchParams();
-  const side = searchParams.get("side")
   const [formData, setFormData] = useState({
     refered_by: '',
-    side: '',
     name: '',
     username: '',
     country: '',
@@ -29,7 +27,6 @@ function Register () {
     confirmPassword: ''
   });
   const [isReferralLocked, setIsReferralLocked] = useState(false);
-  const [isSideLocked, setIsSideLocked] = useState(false);
 
   const fetchReferralData = async (username) => {
     try {
@@ -62,7 +59,6 @@ function Register () {
 
   useEffect(() => {
     const referral_by = searchParams.get("referral_by")?.replace(/["']/g, "");
-    const side = searchParams.get("side")
     const fetchReferral = async () => {
         try {
             if (referral_by) {
@@ -71,10 +67,8 @@ function Register () {
                     setFormData(prev => ({
                         ...prev,
                         refered_by: userData.username,
-                        side: side ,
                     }));
                     setIsReferralLocked(true);
-                    setIsSideLocked(true);
                 }
             }
         } catch (err) {
@@ -115,7 +109,6 @@ function Register () {
       email: formsData.get("email"),
       password: formsData.get("password"),
       confirmPassword: formsData.get("confirmPassword"),
-      side: formsData.get("side") || formData.side
     };
 
     if (!data.phone_number) {
@@ -132,12 +125,6 @@ function Register () {
         errorMessage = "Username cannot contain spaces.";
       }
       toast.error(errorMessage, { duration: 2000 });
-      setLoading(false)
-      return;
-    }
-
-    if (!data.side) {
-      toast.error("Side is required", { duration: 2000 });
       setLoading(false)
       return;
     }
@@ -202,7 +189,7 @@ function Register () {
         }
         toast.success("Registation successful");
        setLoading(false)
-        router.push("/RegistrationReward");
+        router.push("/login");
       } else {
         toast.error('Unexpected response format');
         setLoading(false)

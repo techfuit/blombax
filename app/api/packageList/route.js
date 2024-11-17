@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST() {
  try{
-    const apiResponse = await fetch('https://api.dfmtrade.com/api/packagesList', {
+    const apiResponse = await fetch('https://api.bloombax.com/api/packagesList', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json',

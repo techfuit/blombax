@@ -5,7 +5,7 @@ export async function POST(req) {
 
     const {trx} = await req.json()
 
-    const apiResponse = await fetch('https://api.dfmtrade.com/api/checkTransactionStatus', {
+    const apiResponse = await fetch('https://api.bloombax.com/api/checkTransactionStatus', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

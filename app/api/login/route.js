@@ -4,7 +4,7 @@ export async function POST(req) {
   try {
     const { email, password } = await req.json();
 
-    const response = await fetch('https://api.dfmtrade.com/api/login', {
+    const response = await fetch('https://api.bloombax.com/api/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

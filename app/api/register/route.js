@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(request) {
   try {
     const requestData = await request.json();
-    const apiResponse = await fetch('https://api.dfmtrade.com/api/signUp', {
+    const apiResponse = await fetch('https://api.bloombax.com/api/signUp', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

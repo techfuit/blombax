@@ -245,7 +245,7 @@ const SidenavData = [
             },
             {
                 title: "Team",
-                link: "/dashboard/Team",
+                link: "/dashboard/teamNetwork",
                 icon: (
                     <svg fill="none" viewBox="0 0 15 15" className='size-7' >
                         <path

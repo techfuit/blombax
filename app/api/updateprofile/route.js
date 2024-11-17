@@ -17,7 +17,7 @@ export async function POST(request) {
     if (name) updatePayload.name = name;
     if (phone_number) updatePayload.phone_number = phone_number;
 
-    const apiResponse = await fetch('https://api.dfmtrade.com/api/updateProfile', {
+    const apiResponse = await fetch('https://api.bloombax.com/api/updateProfile', {
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json',

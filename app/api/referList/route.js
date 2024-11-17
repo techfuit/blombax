@@ -9,7 +9,7 @@ export async function POST() {
       return NextResponse.json({ error: 'Session ID not found' }, { status: 401 }); 
     }
 
-    const apiResponse = await fetch('https://api.dfmtrade.com/api/referList', {
+    const apiResponse = await fetch('https://api.bloombax.com/api/referList', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

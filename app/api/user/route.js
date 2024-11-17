@@ -13,7 +13,7 @@ export async function POST() {
     } 
 
     const apiResponse = await fetch(
-      "https://api.dfmtrade.com/api/userDetails",
+      "https://api.bloombax.com/api/userDetails",
       {
         method: "POST",
         headers: {

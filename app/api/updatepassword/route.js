@@ -13,7 +13,7 @@ export async function POST(request) {
     const newPassword = formData.get('newPassword');
     const conPassword = formData.get('conPassword');
 
-    const res = await fetch('https://api.dfmtrade.com/api/updatePassword', {
+    const res = await fetch('https://api.bloombax.com/api/updatePassword', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

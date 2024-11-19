@@ -29,7 +29,7 @@ export const useAuth = () => {
     localStorage.removeItem('email');
     setUser(null);
   };
-
+ 
   const login = async (email, password, rememberMe) => {
     try {
       const response = await fetch('/api/login', {

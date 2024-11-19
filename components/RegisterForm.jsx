@@ -30,7 +30,7 @@ function Register () {
 
   const fetchReferralData = async (username) => {
     try {
-        const response = await fetch(`https://api.dfmtrade.com/api/checkUserSideByUsername?username=${username}`);
+        const response = await fetch(`https://api.bloombax.com/api/checkUserSideByUsername?username=${username}`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }

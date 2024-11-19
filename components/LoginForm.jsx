@@ -52,7 +52,7 @@ export default function LoginForm({ submitForm }) {
                             />
                             <button
                                 type="button"
-                                className="absolute right-3 top-3"
+                                className="absolute right-3 top-[14.5px]"
                                 onClick={() => togglePasswordVisibility("password")}
                             >
                                 {showPassword.password ? (

@@ -37,10 +37,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* .bgGradient {
-  @apply bg-gradient-to-r from-primary via-secondary to-danger;
-} */
-
 .glitches::before {
   content: "404";
   position: absolute;
